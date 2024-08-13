@@ -1,10 +1,10 @@
 program Sieve
     implicit none
     integer ::i,j
-    integer, parameter ::N=1000000
+    integer, parameter ::N=100000000
     logical ,dimension(N)::a
     a=.true.
-    a(1)=.false.
+    a(1)=.false. 
     do i=2,int(sqrt(real(N)))
         if(a(i)) then 
             do j=i*i,N,i
