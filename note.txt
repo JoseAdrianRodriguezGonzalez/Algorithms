@@ -1,0 +1,3 @@
+ gcc -c milibreria.c -o milibreria.o
+ ar rcs libmilibreria.lib milibreria.o
+ gcc main.c -L. -lmilibreria -o miprograma

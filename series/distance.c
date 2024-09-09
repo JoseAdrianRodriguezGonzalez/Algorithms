@@ -18,8 +18,25 @@ long int s2l(char *argc){
     }
     return x*s;
 }
-int main(int argc,int *argv[]){
+int main(int argc,char *argv[]){
+   long int A, B, C, D, X;
     if(argc!=5)
         return -1;
-    
+    A = s2l(argv[1]);
+	B = s2l(argv[2]);
+	C = s2l(argv[3]);
+	D = s2l(argv[4]);
+	printf("%ld\t%ld\t%ld\t%ld\n", A, B, C, D);
+	if(A>B)
+		SWAP(A,B);
+	if(C>D)
+		SWAP(C,D);
+	if(A>C)
+		SWAP(A,C);
+	if(B>D)
+		SWAP(B,D);
+	X = D-A;
+	printf("%ld\t%ld\t%ld\t%ld\n", A, B, C, D);
+	printf("%ld\n", X);
+	return 0;
 }
