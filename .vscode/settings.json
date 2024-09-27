@@ -1,6 +1,10 @@
 {
     "files.associations": {
         "*.embeddedhtml": "html",
-        "algorithms.h": "c"
-    }
+        "algorithms.h": "c",
+        "time.h": "c"
+    },
+    "cSpell.words": [
+        "dinámicamente"
+    ]
 }
