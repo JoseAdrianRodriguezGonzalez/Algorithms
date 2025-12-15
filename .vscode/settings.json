@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "files.associations": {
         "*.embeddedhtml": "html",
@@ -7,4 +8,11 @@
     "cSpell.words": [
         "dinámicamente"
     ]
+=======
+{
+    "files.associations": {
+        "*.embeddedhtml": "html",
+        "algorithms.h": "c"
+    }
+>>>>>>> 2f47376 (Ya comente)
 }

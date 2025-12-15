@@ -1,3 +1,8 @@
+<<<<<<< HEAD
  gcc -c milibreria.c -o milibreria.o
  ar rcs libmilibreria.lib milibreria.o
+=======
+ gcc -c milibreria.c -o milibreria.o
+ ar rcs libmilibreria.lib milibreria.o
+>>>>>>> 2f47376 (Ya comente)
  gcc main.c -L. -lmilibreria -o miprograma

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Algorithms
 Some useful algorithms since graphs, sorting and more...
 
@@ -55,3 +56,7 @@ Search,insert,delete,minimum,maximum, succesor, predecessor
 * Edmonds karp
 * Push-relabel
 * Hamiltonian euclidean
+=======
+# Algorithms
+Some useful algorithms since graphs, sorting and more...
+>>>>>>> 2f47376 (Ya comente)
